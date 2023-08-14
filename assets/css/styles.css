@@ -16,7 +16,7 @@ body {
 	color: var(--light);
 }
 
-.header {
+nav {
 	background: trasparent;
 	position: fixed;
 	top: 0;
@@ -29,22 +29,37 @@ body {
 	z-index: 1;
 }
 
-.logo {
+nav .logo {
+	display: flex;
+	align-items: center;
+}
+
+nav .logo img {
+	height: 50px;
+	width: auto;
+	margin-right: 10px;
+}
+
+nav .logo h1 {
+	display: flex;
 	color: var(--orange);
 	font-size: 24px;
 	font-weight: 600;
+}
+
+nav ul {
+display: flex;
+}
+
+nav .navlinks li a {
+	color: var(--light);
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 30px;
 	text-decoration: none;
+	transition: .5s;
 }
 
-.navbar a {
-color: var(--light);
-font-size: 16px;
-font-weight: 500;
-margin-left: 30px;
-text-decoration: none;
-transition: .5s;
-}
-
-.navbar a:hover,
-.navbar a:active {
-color: var(--orange);
+nav .navlinks li a:hover,
+nav .navlinks li a:active {
+	color: var(--orange);
