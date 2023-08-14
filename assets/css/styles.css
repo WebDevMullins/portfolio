@@ -57,7 +57,7 @@ nav .navlinks li a {
 	font-weight: 500;
 	margin-left: 30px;
 	text-decoration: none;
-	transition: .5s;
+	transition: 0.5s;
 }
 
 nav .navlinks li a:hover,
@@ -139,4 +139,62 @@ h2 {
 
 .project {
 	border: 2px solid var(--orange);
+}
+
+article {
+	position: sticky;
+}
+
+.main-project .title {
+	position: absolute;
+	z-index: 2;
+	bottom: 10%;
+	left: 0;
+	background: var(--orange);
+	height: 70px;
+	width: 200px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 6%;
+}
+
+.title p {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.other-projects .title {
+	flex: 1 1;
+	position: absolute;
+	z-index: 2;
+	bottom: 10%;
+	left: 0;
+	background: var(--orange);
+	height: 70px;
+	width: 100px;
+	text-align: center;
+}
+
+.contact {
+	/* display: flex; */
+	margin: 20px 0;
+	width: 100%;
+}
+
+.contact-links {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	align-items: center;
+	margin-top: 20px;
+}
+
+
+.contact-links li i {
+	color: var(--orange);
+	font-size: 52px;
 }
