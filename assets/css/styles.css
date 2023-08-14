@@ -111,7 +111,32 @@ h2 {
 	margin: 20px 0 40px;
 }
 
-.first-project img {
+.main-project {
+	border: 2px solid var(--orange);
+}
+
+.main-project img {
 	height: auto;
 	width: 100%;
+}
+
+.other-projects {
+	display: flex;
+	height: auto;
+	margin: 2% 0;
+	gap: 2%;
+}
+
+.other-projects a {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.other-projects img {
+	height: auto;
+	width: 100%;
+}
+
+.project {
+	border: 2px solid var(--orange);
 }
