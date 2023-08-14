@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-	background: trasparent;
+	background: var(--grey);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -40,7 +40,7 @@ nav .logo img {
 	margin-right: 10px;
 }
 
-nav .logo h1 {
+nav .logo p {
 	display: flex;
 	color: var(--orange);
 	font-size: 24px;
@@ -48,7 +48,7 @@ nav .logo h1 {
 }
 
 nav ul {
-display: flex;
+	display: flex;
 }
 
 nav .navlinks li a {
@@ -63,3 +63,55 @@ nav .navlinks li a {
 nav .navlinks li a:hover,
 nav .navlinks li a:active {
 	color: var(--orange);
+}
+
+main {
+	height: 100vh;
+	align-items: center;
+	padding: 0 10%;
+	margin-top: 20%;
+}
+
+.about {
+	display: flex;
+}
+
+.about-content {
+	background: ;
+}
+
+.about-content h1 {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--orange);
+}
+
+.about-content p {
+	font-size: 16px;
+	margin: 20px 0 40px;
+	line-height: 1.2;
+}
+
+.about img {
+	display: none;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+}
+
+.projects-content {
+	margin: 20px 0 40px;
+}
+
+.first-project img {
+	height: auto;
+	width: 100%;
+}
