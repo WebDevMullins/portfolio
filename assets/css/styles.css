@@ -92,7 +92,7 @@ h2 {
 	width: 100%;
 }
 
-.img-container {
+.image-container {
 	position: relative;
 	background-image: url('/assets/images/hero.jpg');
 	background-size: cover;
@@ -130,7 +130,7 @@ h2 {
 	width: 100%;
 }
 
-.projects-header {
+.heading {
 	font-size: 3rem;
 	display: flex;
 	align-items: center;
@@ -232,8 +232,10 @@ p {
 	height: auto;
 	width: 40%;
 	font-size: 1.5rem;
-	margin-left: 1rem;
+	margin-left: 2rem;
 }
+
+/* CONTACT SECTION */
 
 .social-icons {
 	display: flex;
@@ -241,7 +243,7 @@ p {
 	justify-content: space-between;
 	font-size: 4rem;
 	width: 30%;
-	margin: 25% 35%;
+	margin: 15% 35%;
 }
 
 /* MOBILE VIEW */
