@@ -46,8 +46,7 @@ a {
 }
 
 .navlinks a:hover,
-.navlinks i:hover,
-.navlinks a:active {
+.navlinks i:hover {
 	color: var(--orange);
 }
 
@@ -101,7 +100,7 @@ h2 {
 	width: 100%;
 	opacity: 30%;
 	margin-top: 0vh;
-	animation: scale 10s;
+	animation: scale 12s;
 }
 
 @keyframes scale {
@@ -145,8 +144,8 @@ h2 {
 	flex-wrap: wrap;
 }
 
-
 .card {
+	flex: 1 1 auto;
 	position: relative;
 	height: 25rem;
 	width: 25rem;
@@ -154,7 +153,6 @@ h2 {
 	box-shadow: -20px 7px 30px rgba(0, 0, 0, 0.2);
 	border-radius: 1rem;
 	margin: 50px;
-	/* background-image: url('/assets/images/horiseon.png'); */
 	background-size: cover;
 	background-position: center;
 }
@@ -183,7 +181,7 @@ h2 {
 	left: 0;
 	bottom: 0;
 	overflow: hidden;
-	margin-bottom: 1rem;
+	margin: 1rem;
 	display: none;
 	z-index: 3;
 }
@@ -204,6 +202,11 @@ h4 {
 
 p {
 	font-size: 1rem;
+	margin: .5rem 0;
+}
+
+.primary {
+	flex: 1 1 100%;
 }
 
 .horiseon {
