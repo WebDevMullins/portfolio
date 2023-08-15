@@ -145,7 +145,8 @@ h2 {
 	flex-wrap: wrap;
 }
 
-.horiseon {
+
+.card {
 	position: relative;
 	height: 25rem;
 	width: 25rem;
@@ -153,12 +154,12 @@ h2 {
 	box-shadow: -20px 7px 30px rgba(0, 0, 0, 0.2);
 	border-radius: 1rem;
 	margin: 50px;
-	background-image: url('/assets/images/project-2.jpg');
+	/* background-image: url('/assets/images/horiseon.png'); */
 	background-size: cover;
 	background-position: center;
 }
 
-.horiseon::after {
+.card::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -171,7 +172,7 @@ h2 {
 	transition: opacity 0.3s ease;
 }
 
-.horiseon:hover::after {
+.card:hover::after {
 	opacity: 1;
 }
 
@@ -187,7 +188,7 @@ h2 {
 	z-index: 3;
 }
 
-.horiseon:hover .title-container {
+.card:hover .title-container {
 	height: 25%;
 	display: block;
 }
@@ -203,6 +204,26 @@ h4 {
 
 p {
 	font-size: 1rem;
+}
+
+.horiseon {
+	background-image: url('/assets/images/horiseon.png');
+}
+
+.project-2 {
+	background-image: url('/assets/images/project-2.jpg');
+}
+
+.project-3 {
+	background-image: url('/assets/images/project-3.jpg');
+}
+
+.project-4 {
+	background-image: url('/assets/images/project-4.jpg');
+}
+
+.project-5 {
+	background-image: url('/assets/images/project-5.jpg');
 }
 
 /* ABOUT SECTION */
