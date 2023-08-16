@@ -93,7 +93,7 @@ h2 {
 
 .image-container {
 	position: relative;
-	background-image: url(./assets/images/hero.jpg);
+	background-image: url('../images/hero.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100%;
@@ -210,23 +210,23 @@ p {
 }
 
 .horiseon {
-	background-image: url('/assets/images/horiseon.png');
+	background-image: url('../images/horiseon.png');
 }
 
 .project-2 {
-	background-image: url('/assets/images/project-2.jpg');
+	background-image: url('../images/project-2.jpg');
 }
 
 .project-3 {
-	background-image: url('/assets/images/project-3.jpg');
+	background-image: url('../images/project-3.jpg');
 }
 
 .project-4 {
-	background-image: url('/assets/images/project-4.jpg');
+	background-image: url('../images/project-4.jpg');
 }
 
 .project-5 {
-	background-image: url('/assets/images/project-5.jpg');
+	background-image: url('../images/project-5.jpg');
 }
 
 /* ABOUT SECTION */
@@ -247,7 +247,7 @@ p {
 .about-image {
 	height: 25rem;
 	width: 25rem;
-	background-image: url('/assets/images/hero.jpg');
+	background-image: url('../images/hero.jpg');
 	background-size: cover;
 	background-position: center;
 }
