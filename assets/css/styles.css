@@ -329,7 +329,7 @@ footer {
 		font-size: 1rem;
 	}
 	.navlinks a {
-		font-size: .75rem;
+		font-size: 0.75rem;
 	}
 
 	.about-section {
@@ -354,7 +354,7 @@ footer {
 	}
 
 	h1 {
-		font-size: 2rem;
+		font-size: 1.75rem;
 	}
 
 	h2 {
@@ -362,7 +362,7 @@ footer {
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 	}
 
 	#navbar {
@@ -391,6 +391,7 @@ footer {
 	.about-text {
 		font-size: 1rem;
 		margin: 5% 0;
+		max-width: 75%;
 	}
 
 	.projects-container {
@@ -403,6 +404,6 @@ footer {
 	}
 
 	footer p {
-		font-size: .75rem;
+		font-size: 0.75rem;
 	}
 }
