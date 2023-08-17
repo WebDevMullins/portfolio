@@ -164,6 +164,7 @@ a {
 	font-size: 3rem;
 	width: 20%;
 	margin-left: 10%;
+	margin-top: 3%;
 }
 
 .icon {
@@ -372,6 +373,7 @@ footer {
 
 	.social-icons {
 		font-size: 2rem;
+		width: 40%;
 	}
 
 	.about-section {
