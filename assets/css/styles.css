@@ -190,7 +190,7 @@ a {
 .about-image {
 	height: 15rem;
 	width: 15rem;
-	background-image: url('../images/hero.jpg');
+	background-image: url('../images/headshot.png');
 	background-size: cover;
 	background-position: center;
 	border-radius: 50%;
