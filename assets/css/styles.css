@@ -244,7 +244,7 @@ h3 {
 	border-radius: 1rem;
 	margin: 1rem;
 	background-size: cover;
-	background-position: center;
+	background-position: 0 0;
 }
 
 .card::after {
@@ -296,16 +296,17 @@ p {
 	flex: 1 0 80%;
 }
 
-.horiseon {
-	background-image: url('../images/horiseon.png');
-}
-
-.project-2 {
-	background-image: url('../images/project-2.jpg');
-}
-
 .project-3 {
 	background-image: url('../images/project-3.jpg');
+}
+
+.track-tracer {
+	background-image: url('../images/track-tracer.png');
+}
+
+.weather-dashboard {
+	background-image: url('../images/weather-dashboard.png');
+	background-position: center;
 }
 
 .project-4 {
@@ -453,11 +454,11 @@ footer {
 	}
 
 	h4 {
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 
 	p {
-		font-size: 0.75rem;
+		font-size: 0.5rem;
 		margin: 0.5rem 0;
 	}
 
