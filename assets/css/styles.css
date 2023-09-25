@@ -65,12 +65,12 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 10vh;
+	height: 8vh;
 	z-index: 1;
 }
 
 .navlinks a {
-	font-size: 1rem;
+	font-size: 1.25rem;
 	font-weight: 500;
 	transition: 0.5s;
 }
@@ -91,7 +91,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 10vh;
+	height: 8vh;
 	z-index: 1;
 }
 
@@ -322,7 +322,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	background-color: var(--grey);
-	height: 10vh;
+	height: 8vh;
 }
 
 /* TABLET VIEW */
@@ -464,7 +464,7 @@ footer {
 
 	footer {
 		background-color: var(--dark);
-		margin-bottom: 10vh;
+		margin-bottom: 8vh;
 	}
 
 	footer p {
