@@ -49,7 +49,16 @@ a {
 
 /* NAVBAR */
 /* DESKTOP */
+.nav-img {
+	border-radius: 50%;
+	width: 50px;
+	background-color: var(--light);
+}
+
 #name {
+	display: flex;
+	align-items: center;
+	gap: 10px;
 	color: var(--orange);
 	font-size: 1.5rem;
 	font-weight: 600;
