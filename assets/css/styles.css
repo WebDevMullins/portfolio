@@ -305,12 +305,10 @@ p {
 	flex: 1 0 80%;
 }
 
-.project-3 {
-	background-image: url('../images/project-3.jpg');
-}
-
 .track-tracer {
 	background-image: url('../images/track-tracer.png');
+	background-position: center;
+
 }
 
 .weather-dashboard {
@@ -318,6 +316,10 @@ p {
 	background-position: center;
 }
 
+.average-joes {
+	background-image: url('https://github.com/WebDevMullins/portfolio/assets/6474546/41d73d01-342f-4eb2-b163-853ce76ad173');
+	background-position: center;
+}
 .project-4 {
 	background-image: url('../images/project-4.jpg');
 }
@@ -459,11 +461,11 @@ footer {
 	}
 
 	#primary-card h4 {
-		font-size: 1.5rem;
+		font-size: 1.1rem;
 	}
 
 	h4 {
-		font-size: 1rem;
+		font-size: .85rem;
 	}
 
 	p {
